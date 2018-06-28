@@ -106,6 +106,20 @@ directory.addAsset('frasindo.com', {
 });
 
 directory.addAnchor({
+  domain: 'orphansoftheworld.io',
+  website: 'https://orphansoftheworld.io',
+  logo: 'orphansoftheworld.io',
+  color: '#ffbe2c',
+  displayName: 'Orphansoftheworld',
+});
+
+directory.addAsset('orphansoftheworld.io', {
+  code: 'ORPH',
+  issuer: 'GDFP3CJHUOOOWOD5IF6G2ZNHNUPURZCKLB35TZPV4C7XNGDAEUBDVKQP',
+  type: 'token',
+});
+
+directory.addAnchor({
   domain: 'pedity.com',
   website: 'https://pedity.com',
   logo: 'pedity.com',
